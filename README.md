@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/92727947/213304769-b37f027c-a8b2-49f0-b4d8-35a947bf763b.gif" width="250"/>
+  <img src="https://user-images.githubusercontent.com/92727947/213400987-efc8221d-d5bd-4348-9ee2-09e04439513c.gif" width="250"/>
 </p>
 
 #### What are variable fonts?
