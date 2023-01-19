@@ -16,7 +16,7 @@ struct ContentView: View {
         VStack {
             Text("Variable Fonts Example Text")
                 .font(.variableFont( 24.0,
-                                     axes: axisValue))
+                                     axis: axisValue))
         }.padding(.vertical)
         ScrollView {
             VStack(spacing: 16) {

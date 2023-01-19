@@ -57,8 +57,8 @@ public enum FontVariations: Int, CustomStringConvertible {
 
 // MARK: - Font
 public extension Font {
-    static func variableFont(_ size: CGFloat, axes: [Int: Int] = [:]) -> Font {
-        let uiFontDescriptor = UIFontDescriptor(fontAttributes: [.name: "Roboto Flex", kCTFontVariationAttribute as UIFontDescriptor.AttributeName: axes])
+    static func variableFont(_ size: CGFloat, axis: [Int: Int] = [:]) -> Font {
+        let uiFontDescriptor = UIFontDescriptor(fontAttributes: [.name: "Roboto Flex", kCTFontVariationAttribute as UIFontDescriptor.AttributeName: axis])
         let newUIFont = UIFont(descriptor: uiFontDescriptor, size: size)
         return Font(newUIFont)
     }
