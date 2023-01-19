@@ -29,11 +29,11 @@ class FontVariants {
                  AxisSlider(minValue: 323, maxValue: 603, currentValue: 400, axisName: .xtra),
                  AxisSlider(minValue: 27, maxValue: 175, currentValue: 50, axisName: .xopq),
                  AxisSlider(minValue: 25, maxValue: 135, currentValue: 50, axisName: .yopq),
-                 AxisSlider(minValue: 416, maxValue: 570, currentValue: 490, axisName: .ytlc)
-//                 AxisSlider(minValue: 528, maxValue: 760, currentValue: 700, axisName: .ytuc),
-//                 AxisSlider(minValue: 649, maxValue: 854, currentValue: 750, axisName: .ytas),
-//                 AxisSlider(minValue: -305, maxValue: -98, currentValue: -250, axisName: .ytde),
-//                 AxisSlider(minValue: 560, maxValue: 788, currentValue: 600, axisName: .ytfi)
+                 AxisSlider(minValue: 416, maxValue: 570, currentValue: 490, axisName: .ytlc),
+                 AxisSlider(minValue: 528, maxValue: 760, currentValue: 700, axisName: .ytuc),
+                 AxisSlider(minValue: 649, maxValue: 854, currentValue: 750, axisName: .ytas),
+                 AxisSlider(minValue: -305, maxValue: -98, currentValue: -250, axisName: .ytde),
+                 AxisSlider(minValue: 560, maxValue: 788, currentValue: 600, axisName: .ytfi)
         ]
     }
 }

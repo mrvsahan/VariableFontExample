@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SliderView: View {
-    @State var value: Float = 0.0
+    @State var value: Float = .zero
     @Binding var axisValue: [Int:Int]
 
     var axisName: FontVariations
@@ -28,7 +28,7 @@ struct SliderView: View {
                 axisValue[axisName.rawValue] = Int(newValue)
             }
         }
-        .padding([.all])
+        .padding([.all], 8)
         .background(Color(hue: 0.588, saturation: 0.363, brightness: 0.969))
         .cornerRadius(20)
     }
