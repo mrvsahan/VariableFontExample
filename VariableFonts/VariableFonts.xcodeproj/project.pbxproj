@@ -60,15 +60,11 @@
 		8B86BE4D296F666B00213C34 /* VariableFonts */ = {
 			isa = PBXGroup;
 			children = (
+				8BD2E18329793B3A0057A5D7 /* Resources */,
+				8BD2E18229793B2A0057A5D7 /* Extensions */,
+				8BD2E18129793B1C0057A5D7 /* CustomView */,
 				8B86BE6029700B5600213C34 /* Info.plist */,
-				8B86BE4E296F666B00213C34 /* VariableFontsApp.swift */,
-				8B86BE50296F666B00213C34 /* ContentView.swift */,
-				8B86BE5E29700AED00213C34 /* RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf */,
-				8B86BE52296F666C00213C34 /* Assets.xcassets */,
 				8B86BE54296F666C00213C34 /* Preview Content */,
-				8B86BE5C296F77E100213C34 /* UIView+Extension.swift */,
-				8B5438262971B950004B775B /* SliderView.swift */,
-				8B5438282972F2FC004B775B /* AxisSlider.swift */,
 			);
 			path = VariableFonts;
 			sourceTree = "<group>";
@@ -79,6 +75,34 @@
 				8B86BE55296F666C00213C34 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BD2E18129793B1C0057A5D7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8B5438282972F2FC004B775B /* AxisSlider.swift */,
+				8B5438262971B950004B775B /* SliderView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8BD2E18229793B2A0057A5D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B86BE5C296F77E100213C34 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8BD2E18329793B3A0057A5D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B86BE50296F666B00213C34 /* ContentView.swift */,
+				8B86BE4E296F666B00213C34 /* VariableFontsApp.swift */,
+				8B86BE52296F666C00213C34 /* Assets.xcassets */,
+				8B86BE5E29700AED00213C34 /* RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

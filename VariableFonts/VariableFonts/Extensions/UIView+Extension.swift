@@ -5,7 +5,6 @@
 //  Created by Merve Şahan on 12.01.23.
 //
 
-import UIKit
 import SwiftUI
 
 public enum FontVariations: Int, CustomStringConvertible {
@@ -56,6 +55,7 @@ public enum FontVariations: Int, CustomStringConvertible {
 
 }
 
+// MARK: - Font
 public extension Font {
     static func variableFont(_ size: CGFloat, axes: [Int: Int] = [:]) -> Font {
         let uiFontDescriptor = UIFontDescriptor(fontAttributes: [.name: "Roboto Flex", kCTFontVariationAttribute as UIFontDescriptor.AttributeName: axes])
